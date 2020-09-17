@@ -86,7 +86,7 @@ h2 {
 
 .topnav {
   overflow: hidden;
-  background-color: #6c6578 ;
+  /* background-color: transparent ; */
 }
 
 .topnav a {
@@ -143,75 +143,8 @@ h2 {
 }
 
 
-.html {
-  font-family: 'MuseoModerno', cursive;
-  color: #ffc400;
-  border: 2px dotted #ffc400;
-  padding: 0.5rem;
-  font-size: 1.2rem;
-  line-height: 4rem;
-  margin: 0rem 1rem;
-}
 
 
-.css {
-  font-family: 'Lemonada', cursive;
-  color: #8fecff;
-  border-bottom: 2px solid #8fecff;
-  font-size: 1.2rem;
-  line-height: 4rem;
-  margin: 1rem 1rem;
-}
-
-
-.js {
-  font-family: 'Oswald', sans-serif;
-  color: #d0b0ff;
-  border: 2px solid #d0b0ff;
-  padding: 0.7rem;
-  font-size: 1.2rem;
-  line-height: 4rem;
-  margin: 1rem 1rem;
-}
-
-.sql {
-  font-family: 'Maven Pro', sans-serif;
-  color: #f1ff00;
-  font-size: 1.8rem;
-  line-height: 4rem;
-  margin: 0rem 1rem;
-}
-
-.python {
-  font-family: 'DM Sans', sans-serif;
-  color: #ff00dd;
-  border: 2px dashed #ff00dd;
-  padding: 0.7rem;
-  font-size: 1.2rem;
-  line-height: 4rem;
-  margin: 0rem 1rem;
-}
-
-
-
-.svgi {
-  font-family: 'Chelsea Market', cursive;
-  color: #59f77b;
-  font-size: 1.6rem;
-  line-height: 4rem;
-  margin: 0rem 1rem;
-  text-decoration: underline;
-  }
-
-  .bootstrap {
-    font-family: 'Saira Semi Condensed', sans-serif;
-    color: #d95b63;
-    font-size: 1.6rem;
-    line-height: 4rem;
-    margin: 0rem 1rem;
-    border: 2px dotted #d95b63;
-    padding: 0.2rem;
-    }
 
 
 .learning {

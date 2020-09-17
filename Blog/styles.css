@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    background-color: #301d75;
+  }
+
+  h3 {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1.5rem;
+    color: #d5e082;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #d5e082;
+  }
+  
+  .topnav a {
+    font-family: 'Karla', sans-serif;
+    float: left;
+    display: block;
+    color: #301d75;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #301d75;
+    color: #d5e082;
+  }
+  
+  .topnav a.active {
+    background-color: #969e59;
+    color:#301d75;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }

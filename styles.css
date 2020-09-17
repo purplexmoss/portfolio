@@ -1,0 +1,317 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ovo', serif;
+  text-align: center;
+  background-color: #ede4d5;
+}
+
+
+/* Main Section */
+
+
+.flex-container {
+  align-items: center;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.name {
+  flex-basis: 40%;
+  align-items: flex-start;
+}
+
+.big-heading {
+  font-family: 'Ovo', serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #10400b;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.profpic {
+  width: 150px;
+  border-radius: 100px;
+  border: 3px solid #10400b;
+}
+
+
+
+
+h2 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 1.3rem;
+  color: #6c6578 ;
+}
+
+.namebox {
+  align-items: flex-start;
+}
+
+.intro {
+  flex-basis: 60%;
+}
+
+.introtext {
+  font-family: 'Ovo', serif;
+  color: #ede4d5;
+  font-size: 1.2rem;
+  margin: 100px;
+  padding: 1rem;
+  z-index: 1;
+}
+
+.text-border-box {
+  border: 1px solid #10400b;
+}
+
+.text-box {
+  position: relative;
+  background: #6c6578;
+  left: 30px;
+  top: 20px;
+  padding: 10px;
+}
+
+
+/* Nav Bar */
+
+.topnav {
+  overflow: hidden;
+  background-color: #6c6578 ;
+}
+
+.topnav a {
+  font-family: 'Karla', sans-serif;
+  float: left;
+  display: block;
+  color: #301d75;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #301d75;
+  color: #d5e082;
+}
+
+.topnav a.active {
+  background-color: #969e59;
+  color:#301d75;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* STACK SECTION */
+
+.stacksection {
+  background-color: #1f0538;
+  padding-bottom: 2rem;
+}
+
+.flex-container2 {
+  align-items: center;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.stack {
+  flex-basis: 40%;
+  align-items: flex-start;
+}
+
+.howistack {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #d5e082;
+}
+
+
+.html {
+  font-family: 'MuseoModerno', cursive;
+  color: #ffc400;
+  border: 2px dotted #ffc400;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 4rem;
+  margin: 0rem 1rem;
+}
+
+
+.css {
+  font-family: 'Lemonada', cursive;
+  color: #8fecff;
+  border-bottom: 2px solid #8fecff;
+  font-size: 1.2rem;
+  line-height: 4rem;
+  margin: 1rem 1rem;
+}
+
+
+.js {
+  font-family: 'Oswald', sans-serif;
+  color: #d0b0ff;
+  border: 2px solid #d0b0ff;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  line-height: 4rem;
+  margin: 1rem 1rem;
+}
+
+.sql {
+  font-family: 'Maven Pro', sans-serif;
+  color: #f1ff00;
+  font-size: 1.8rem;
+  line-height: 4rem;
+  margin: 0rem 1rem;
+}
+
+.python {
+  font-family: 'DM Sans', sans-serif;
+  color: #ff00dd;
+  border: 2px dashed #ff00dd;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  line-height: 4rem;
+  margin: 0rem 1rem;
+}
+
+
+
+.svgi {
+  font-family: 'Chelsea Market', cursive;
+  color: #59f77b;
+  font-size: 1.6rem;
+  line-height: 4rem;
+  margin: 0rem 1rem;
+  text-decoration: underline;
+  }
+
+  .bootstrap {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: #d95b63;
+    font-size: 1.6rem;
+    line-height: 4rem;
+    margin: 0rem 1rem;
+    border: 2px dotted #d95b63;
+    padding: 0.2rem;
+    }
+
+
+.learning {
+  flex-basis: 30%;
+}
+
+h3 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 1.5rem;
+  color: #d5e082;
+}
+
+.learningitems {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #f2aef2;
+}
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+  .social {
+    background-color: #f2aef2;
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
+    color: #301d75;
+  }
+  
+  .social-icon {
+    margin: 0.8rem 2rem;
+    font-size: 2.5rem;
+  }
+
+  .si {
+    color: #301d75;
+  }
+
+  .si:hover {
+    color: #62489c;
+  }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+.introtext {
+  padding: 1rem 1rem;
+  margin: 1rem -3rem;
+}
+
+.big-heading {
+  font-family: 'Ovo', serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #10400b;
+}
+
+
+  .squiggle {
+    left: 260px;
+    top: 170px;
+  }
+
+  .h2 {
+   font-size: 1rem;
+   padding-bottom: 1rem;
+  }
+
+
+}
+
+

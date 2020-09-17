@@ -255,9 +255,13 @@ h3 {
 }
 
 
-  .squiggle {
-    left: 260px;
-    top: 170px;
+  .svg-box {
+    left: 30px;
+    top: 100px;
+  }
+
+  .plant-svg {
+    width: 50px;
   }
 
   .h2 {

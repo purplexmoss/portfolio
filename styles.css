@@ -234,6 +234,29 @@ h2 {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 637px) {
+  .intro {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    flex-basis: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+.stack {
+ flex-basis: 80%;
+  }
+
+.stack2 {
+  flex-basis: 80%;
+}
+
+}
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -273,7 +296,7 @@ h2 {
 
 
   .svg-box {
-    left: 240px;
+    left: 300px;
     top: 120px;
   }
 

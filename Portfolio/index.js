@@ -6,3 +6,6 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  const observer = lozad();
+  observer.observe();

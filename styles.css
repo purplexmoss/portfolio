@@ -44,7 +44,7 @@ body {
 path {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
-  animation: dash 2s linear forwards;
+  animation: dash 3s linear forwards;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -118,24 +118,28 @@ h2 {
 }
 
 .topnav a {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Ovo', serif;
   float: left;
   display: block;
-  color: #301d75;
+  color: #6c6578;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .topnav a:hover {
-  background-color: #301d75;
-  color: #d5e082;
+  background-color: #6c6578;
+  color: #ede4d5;
+  transition-delay: 0.1s;
+  -webkit-transition-delay: 0.1s;
 }
 
 .topnav a.active {
-  background-color: #969e59;
-  color:#301d75;
+  background-color: #a39d93;
+  color:#ede4d5;
 }
 
 .topnav .icon {
@@ -145,7 +149,7 @@ h2 {
 /* STACK SECTION */
 
 .stacksection {
-  background-color: #1f0538;
+  background-color: #6c6578;
   padding-bottom: 2rem;
 }
 

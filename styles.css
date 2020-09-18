@@ -42,10 +42,11 @@ body {
 } */
 
 path {
-  stroke-dasharray: 30;
-  stroke-dashoffset: 1000;
-  animation: dash 20s linear forwards;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: dash 2s linear forwards;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes dash {
@@ -263,7 +264,7 @@ h3 {
 
   .svg-box {
     left: 30px;
-    top: 70px;
+    top: 120px;
   }
 
   .plant-svg {

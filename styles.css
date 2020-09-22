@@ -10,10 +10,30 @@ body {
   background-color: #ede4d5;
 }
 
-/* p {
-  font-family: 'Ovo', serif;
-  /* font-size: 2rem;
-}*/
+.project-description {
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.language-text {
+  font-weight: 600;
+  background: #ccc2ab;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 3px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+  color: #52472d;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  width: 55%;
+}
+
 
 .arrows-container {
   width: 0;
@@ -38,7 +58,7 @@ img {vertical-align: middle;}
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: #968150;
   font-weight: bold;
   font-size: 2rem;
   transition: 0.6s ease;
@@ -52,7 +72,7 @@ img {vertical-align: middle;}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #ccc2ab;
 }
 
 /* Caption text */
@@ -81,14 +101,14 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color:#ccc2ab;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #968150;
 }
 
 /* Fading animation */
@@ -110,9 +130,9 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next {font-size: 1rem}
-}
+/* @media only screen and (max-width: 300px) {
+  .prev, .next {font-size: 0.8rem}
+} */
 
 
 /* Main Section */
@@ -179,8 +199,8 @@ path {
 
 
 h2 {
-  font-family: 'Major Mono Display', monospace;
-  font-size: 1.3rem;
+  font-family: 'Ovo', serif;
+  font-size: 1.4rem;
   color: #6c6578 ;
 }
 
@@ -343,7 +363,14 @@ h2 {
   }
 
   .prev, .next {
-    font-size: 1rem;}
+    font-size: 1rem;
+    padding: 3px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
 }
 
 @media screen and (max-width: 500px) {

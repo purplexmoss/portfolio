@@ -10,6 +10,20 @@ body {
   background-color: #ede4d5;
 }
 
+button {
+  background: #6c6578;
+  border: none;
+  font-family: 'Inter', serif;
+  font-size: 1rem;
+  color: #ede4d5;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #ede4d5;
+  color: #a39d93;
+}
+
 .project-description {
   text-align: left;
   justify-content: center;
@@ -342,6 +356,30 @@ h2 {
     font-size: 1rem;
     color: #301d75;
   }
+
+  .form-container {
+    flex-basis: 50%;
+    align-items: flex-start;
+    margin: 30px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .contact-field {
+    font-weight: 600;
+    color: #10400b;
+    font-family: 'Ovo', serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
+  }
+  
+  .socialstuff {
+    flex-basis: 30%;
+    align-items: flex-start;
+    margin: 30px;
+    text-align: left;
+    display: inherit;
+  }
   
   .social-icon {
     margin: 0.8rem 2rem;
@@ -349,11 +387,11 @@ h2 {
   }
 
   .si {
-    color: #301d75;
+    color: #10400b;
   }
 
   .si:hover {
-    color: #62489c;
+    color: #658062;
   }
 
 

@@ -421,6 +421,10 @@ h2 {
   .slide-img {
     width: 80%;
   }
+
+  textarea {
+   width: 80%;
+}
 }
 
 @media screen and (max-width: 637px) {
